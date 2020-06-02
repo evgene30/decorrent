@@ -543,6 +543,7 @@ body {
 /* INTRO styles start */
 .main {
   background-color: #FCF9F8;
+  
 
 
 }
@@ -556,6 +557,7 @@ body {
   height: 100vh;
   max-width: 1176px;
   margin: 0 auto;
+  
 }
 .sec1, .sec2 {
   
@@ -636,7 +638,10 @@ button:hover, button:focus, button:active {
 
 .sec3 {
 
-  position: relative;
+  
+  
+  
+  
 }
 .bec4 {
   
@@ -647,14 +652,13 @@ button:hover, button:focus, button:active {
   font-size: 32px;
   line-height: 40px;
   text-align: center;
+  margin-bottom: 0;
   color: #3B221C;
 }
 
 .main_logo {
   position: absolute;
-
-
-
+  
 }
 .main_logo2 {
 
