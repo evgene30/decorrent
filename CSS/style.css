@@ -634,5 +634,20 @@ button:hover, button:focus, button:active {
   margin-left: 11px;
 }
 
+.sec3 {
+
+  position: relative;
+}
+.bec4 {
+  
+  position: absolute;
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  color: #3B221C;
+}
 
 
