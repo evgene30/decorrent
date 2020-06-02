@@ -651,7 +651,7 @@ button:hover, button:focus, button:active {
 }
 
 .main_logo {
-  p
+  position: absolute;
 
 
 
