@@ -588,6 +588,14 @@ body {
   
 
 }
+.sec5 {
+  position: absolute;
+  width: 1176;
+  height: 44;
+  top: 400px;
+  right: 0px;
+  left: 55px;
+}
 
 .bec1 {
   font-family: Noto Serif;
@@ -713,6 +721,26 @@ button:hover, button:focus, button:active {
   left: 232.36px;
   top: 3149.29px;
 }
+
+.afloa1 {
+  position: absolute;
+  left: 379px;
+  top: 1618px;
+
+}
+.afloa2 {
+  position: absolute;
+  right: 342px;
+  top: 1618px;
+
+
+}
+.swadba {
+  position: absolute;
+  left: 165px;
+  top: 1746.81px;
+
+}
 .pic1 {
   position: absolute;
   width: 588px;
@@ -720,6 +748,13 @@ button:hover, button:focus, button:active {
   top: 0px;
   background: linear-gradient(180deg, rgba(252, 249, 248, 0.96) 13.54%, rgba(252, 249, 248, 0) 57.29%);
   transform: rotate(-0.09deg);
+
+}
+.bulkini {
+  position: absolute;
+  left: 466px;
+  top: 1731.56px;
+
 }
 
 .sec4 {
@@ -821,7 +856,7 @@ text {
   height: 76px;
 }
 .footer_list {
-  
+  margin:82px;
 }
 .footer_item {
   margin-right: 18px;
