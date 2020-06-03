@@ -543,6 +543,7 @@ body {
 /* INTRO styles start */
 .main {
   background-color: #FCF9F8;
+  position: relative;
   
 
 
@@ -554,17 +555,37 @@ body {
 
 }
 .intro {
-  height: 100vh;
+  
   max-width: 1176px;
   height: 3432px;
   margin: 0 auto;
+  position: relative;
   
 }
-.sec1, .sec2 {
+.sec1 {
   
   width: 588px;
-  float: left;
-  position: relative;
+  height: 961px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+
+}
+.sec2 {
+  width: 588px;
+  height: 961px;
+  right: 0px;
+  top: 0px;
+  position: absolute;
+
+}
+.sec3 {
+  position: absolute;
+  width: 1176px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+ 
 
 }
 
@@ -656,8 +677,17 @@ button:hover, button:focus, button:active {
 }
 .main_logo2 {
 
-  position: fixed;
-
-
+  position: absolute;
+  right: 0px;
+  top: 790px;
+  
+}
+.pic1 {
+  position: absolute;
+  width: 588px;
+  height: 103px;
+  top: 0px;
+  background: linear-gradient(180deg, rgba(252, 249, 248, 0.96) 13.54%, rgba(252, 249, 248, 0) 57.29%);
+  transform: rotate(-0.09deg);
 }
 
