@@ -580,9 +580,9 @@ body {
 
 }
 .sec3 {
-  position: absolute;
+  position: relative;
   width: 1176px;
-  bottom: 0px;
+  top: 1117px;
   right: 0px;
   left: 0px;
  
@@ -668,6 +668,9 @@ button:hover, button:focus, button:active {
   text-align: center;
   margin-bottom: 0;
   color: #3B221C;
+  top: 0px;
+  bottom: 0px;
+  left: 363px;
 }
 
 .main_logo {
@@ -685,6 +688,19 @@ button:hover, button:focus, button:active {
   position: absolute;
   right: 0px;
   top: 1320px;
+
+}
+
+.left_flo {
+  position: absolute;
+  left: 302px;
+  top: 1097px;
+
+}
+.right_flo {
+  position: absolute;
+  left: 982px;
+  top: 1097px;
 
 }
 .pic1 {
