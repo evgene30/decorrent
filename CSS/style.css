@@ -585,7 +585,7 @@ body {
   top: 1117px;
   right: 0px;
   left: 0px;
- 
+  
 
 }
 
@@ -712,3 +712,36 @@ button:hover, button:focus, button:active {
   transform: rotate(-0.09deg);
 }
 
+.sec4 {
+  position: relative;
+  width: 1176px;
+  top: 1232px;
+  right: 0px;
+  left: 0px;
+}
+.inf1 {
+  background-color: red;
+  position: absolute;
+  width: 392px;
+  left: 0px;
+ 
+
+}
+.inf2 {
+  
+  background-color: royalblue;
+  position: absolute;
+  width: 392px;
+  left: 392px;
+  
+}
+.inf3 {
+  background-color: green;
+  position: relative;
+  width: 392px;
+  left: 784px;
+  
+}
+.img_menu, .img_cash, .loc {
+  margin-left: 165px;
+}
