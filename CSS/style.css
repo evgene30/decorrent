@@ -556,6 +556,7 @@ body {
 .intro {
   height: 100vh;
   max-width: 1176px;
+  height: 3432px;
   margin: 0 auto;
   
 }
@@ -636,13 +637,6 @@ button:hover, button:focus, button:active {
   margin-left: 11px;
 }
 
-.sec3 {
-
-  
-  
-  
-  
-}
 .bec4 {
   
   position: absolute;
