@@ -720,7 +720,7 @@ button:hover, button:focus, button:active {
   left: 0px;
 }
 .inf1 {
-  background-color: red;
+ 
   position: absolute;
   width: 392px;
   left: 0px;
@@ -729,19 +729,54 @@ button:hover, button:focus, button:active {
 }
 .inf2 {
   
-  background-color: royalblue;
+ 
   position: absolute;
   width: 392px;
   left: 392px;
   
 }
 .inf3 {
-  background-color: green;
-  position: relative;
+  
+  position: absolute;
   width: 392px;
   left: 784px;
   
 }
 .img_menu, .img_cash, .loc {
   margin-left: 165px;
+  margin-bottom: 19px;
+}
+
+text {
+  position: absolute;
+  top: 51px;
+  left: 0px;
+  width: 339px;
+  height: 32.11px;
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 32px;
+  margin-left: 22px;
+  
+  color: #3B221C;
+
+}
+
+.b1, .b2, .b3 {
+  position: absolute;
+  width: 354px;
+  height: 48.17px;
+  left: 0px;
+  top: 93.85px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 22px;
+  color: #3B221C;
+  opacity: 0.7;
+
 }
