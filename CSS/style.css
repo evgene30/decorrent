@@ -703,6 +703,16 @@ button:hover, button:focus, button:active {
   top: 1097px;
 
 }
+.button_flo1 {
+  position: absolute;
+  left: 0px;
+  top: 3021px;
+}
+.button_flo2 {
+  position: absolute;
+  left: 232.36px;
+  top: 3149.29px;
+}
 .pic1 {
   position: absolute;
   width: 588px;
@@ -719,29 +729,26 @@ button:hover, button:focus, button:active {
   right: 0px;
   left: 0px;
 }
+
 .inf1 {
- 
   position: absolute;
   width: 392px;
   left: 0px;
- 
 
 }
+
 .inf2 {
-  
- 
   position: absolute;
   width: 392px;
   left: 392px;
-  
 }
+
 .inf3 {
-  
   position: absolute;
   width: 392px;
   left: 784px;
-  
 }
+
 .img_menu, .img_cash, .loc {
   margin-left: 165px;
   margin-bottom: 19px;
@@ -759,9 +766,7 @@ text {
   font-size: 22px;
   line-height: 32px;
   margin-left: 22px;
-  
   color: #3B221C;
-
 }
 
 .b1, .b2, .b3 {
@@ -778,5 +783,85 @@ text {
   margin-left: 22px;
   color: #3B221C;
   opacity: 0.7;
+}
 
+
+
+
+
+
+
+.footer_bottom {
+  position: absolute;
+  max-width: 1440px;
+  max-height: 181px;
+  left: 0px;
+  top: 3251px;
+  margin: 0 auto;
+  background: #3B221C;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFE4DB;
+ 
+  
+  
+}
+.footer_nav {
+  margin-top: 33px;
+  margin-left: 133px;
+  margin-right: 133px;
+  margin-bottom: 26px;
+  height: 76px;
+}
+.footer_list {
+  
+}
+.footer_item {
+  margin-right: 18px;
+
+}
+
+.text_footer{
+
+  position: absolute;
+  width: 138px;
+  height: 24px;
+  left: 132px;
+  top: 31px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFE4DB;
+
+}
+.footer_link {
+
+  position: absolute;
+  width: 295px;
+  height: 24px;
+  left: 131px;
+  top: 67px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFE4DB;
+  display: flex;
+  flex-direction: column;
+  
+}
+.footer_link:hover, .footer_link:focus, .footer_link:active {
+  
+  text-shadow: 1px 1px 2px #666; 
+  color:white;
 }
