@@ -480,13 +480,13 @@ body {
 
 }
 .header {
-  
+
   max-width: 1440px;
   max-height: 104px;
   margin: 0 auto;
   background: #FCF9F8;
   box-shadow: 0px 1px 0px #DDC8C2;
-  
+
 
 }
 .header_wrapper {
@@ -504,7 +504,7 @@ body {
 
   display: flex;
   flex-wrap: wrap;
-  
+
 }
 .header_item {
 
@@ -526,8 +526,8 @@ body {
 
 }
 .header_link:hover, .header_link:focus, .header_link:active {
-  
-  text-shadow: 1px 1px 2px #666; 
+
+  text-shadow: 1px 1px 2px #666;
   color:#3B221C;
 }
 .header_nav {
@@ -540,11 +540,11 @@ body {
 
 #topButtom {
   display: inline-block;
-  position: fixed;   
-  text-align: center;         
-  bottom: 55px;   
-  right: 65px;   
-  z-index: 1000; 
+  position: fixed;
+  text-align: center;
+  bottom: 35px;
+  right: 45px;   
+  z-index: 1000;
 }
 
 
@@ -582,7 +582,7 @@ body {
 .main {
   background-color: #FCF9F8;
   position: relative;
-  
+
 
 }
 .main_logo {
@@ -592,15 +592,15 @@ body {
 
 }
 .intro {
-  
+
   max-width: 1176px;
   height: 3432px;
   margin: 0 auto;
   position: relative;
-  
+
 }
 .sec1 {
-  
+
   width: 588px;
   height: 961px;
   left: 0px;
@@ -622,7 +622,7 @@ body {
   top: 1117px;
   right: 0px;
   left: 0px;
-  
+
 
 }
 .sec5 {
@@ -675,7 +675,7 @@ button {
 }
 button:hover, button:focus, button:active {
   background: linear-gradient(270deg, #3B221C 14.79%, #673C30 42.82%, #794739 55.83%, #3B221C 82.86%), #3B221C;
-  box-shadow: 1px 2px 2px rgba(73, 43, 36, 0.25); 
+  box-shadow: 1px 2px 2px rgba(73, 43, 36, 0.25);
 }
 
 .bec3 {
@@ -695,7 +695,7 @@ button:hover, button:focus, button:active {
 }
 
 .bec4 {
-  
+
   position: absolute;
   font-family: Noto Serif;
   font-style: normal;
@@ -712,14 +712,14 @@ button:hover, button:focus, button:active {
 
 .main_logo {
   position: absolute;
-  
+
 }
 .main_logo2 {
 
   position: absolute;
   right: 0px;
   top: 790px;
-  
+
 }
 .main_logo3 {
   position: absolute;
@@ -873,7 +873,7 @@ text {
   font-size: 16px;
   line-height: 24px;
   color: #FFE4DB;
- 
+
 }
 
 .footer_nav {
@@ -881,7 +881,7 @@ text {
   margin-left: 133px;
   margin-right: 133px;
   margin-bottom: 26px;
-  
+
 }
 
 .footer_list {
@@ -924,12 +924,13 @@ text {
   color: #FFE4DB;
   display: flex;
   flex-direction: column;
-  
+
+
 }
 
 
 .footer_link:hover, .footer_link:focus, .footer_link:active {
-  text-shadow: 1px 1px 2px #666; 
+  text-shadow: 1px 1px 2px #666;
   color:white;
 
 }
