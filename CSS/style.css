@@ -855,7 +855,6 @@ text {
 
 
 /*Footer start*/
-
 .footer {
   background: #3B221C;
   padding-left: 133px;
@@ -865,26 +864,22 @@ text {
   height: 183px;
   position: relative;
   
-  
-
 }
 
 .footer_item {
   display: flex;
   flex-wrap: wrap;
   
-
 }
+
 .footer_nav {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   
-  
-
-
 }
+
 .footer_menu-title {
   font-family: Montserrat;
   font-style: normal;
@@ -895,17 +890,22 @@ text {
   margin-bottom: 12px;
 
 }
+
 .men {
   margin-bottom: 8px;
+
 }
+
 .dr {
   margin-right: 18px;
-  
+
 }
+
 .men2 {
   margin-top: 39px;
 
 }
+
 .footer_menu-link {
   font-family: Montserrat;
   font-style: normal;
@@ -915,11 +915,10 @@ text {
   color: #FFE4DB;
   text-decoration: none;
  
-  
 }
+
 .footer_menu-link:hover, .footer_menu-link:focus,.footer_menu-link:active {
   opacity: .35;
 
 }
-
 /*Footer end*/
