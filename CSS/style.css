@@ -595,7 +595,7 @@ body {
 .intro {
 
   max-width: 1176px;
-  height: 3249px;
+  height: 3251px;
   margin: 0 auto;
   position: relative;
 
@@ -862,7 +862,7 @@ text {
   padding-right: 133px;
   padding-top: 33px;
   padding-bottom: 27px;
-  height: 181px;
+  height: 183px;
   position: relative;
   
   
@@ -880,7 +880,7 @@ text {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  column-count: auto;
+  
   
 
 
@@ -895,18 +895,22 @@ text {
   margin-bottom: 12px;
 
 }
+.men {
+  margin-bottom: 8px;
+}
 .footer_menu-link {
   font-family: Montserrat;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #FFE4DB;
   text-decoration: none;
+ 
   
 }
 .footer_menu-link:hover, .footer_menu-link:focus,.footer_menu-link:active {
-  opacity: .75;
+  opacity: .35;
 
 }
 
