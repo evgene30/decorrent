@@ -896,9 +896,12 @@ text {
 
 }
 
-.dr {
-  margin-right: 18px;
-
+.men3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 78%;
+  
 }
 
 .men2 {
