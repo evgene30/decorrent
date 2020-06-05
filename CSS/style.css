@@ -449,19 +449,16 @@ textarea {
 }
 
 /* Подключение box-sizing border-box для правильного расчета разметки */
-/* Header styles start */
 html {
-
   box-sizing: border-box;
-
 }
 *, *::before, *::after {
-
   box-sizing: inherit;
-
 }
-body {
 
+
+/* Body styles start */
+body {
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
@@ -469,28 +466,24 @@ body {
   line-height: 1.2;
   background: #E5E5E5;
   
-  
-
-
 }
-/* Верстка */
 
+/* HEADER styles */
 .wrapper {
-
   max-width: 1176px;
   margin: 0 auto;
 
 }
-.header {
 
+.header {
   max-width: 1440px;
   max-height: 104px;
   margin: 0 auto;
   background: #FCF9F8;
   box-shadow: 0px 1px 0px #DDC8C2;
 
-
 }
+
 .header_wrapper {
 
   display: flex;
@@ -500,26 +493,25 @@ body {
   padding-top: 26px;
   padding-bottom: 26px;
 
-
 }
-.header_list {
 
+.header_list {
   display: flex;
   flex-wrap: wrap;
 
 }
-.header_item {
 
+.header_item {
   margin-right: 82px;
 
 }
+/* создание псевдокласса для последнего элемента меню */
 .header_item:last-child {
-
   margin-right: 0px;
 
 }
-.header_link {
 
+.header_link {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -527,19 +519,19 @@ body {
   text-decoration: none;
 
 }
+/* Применение стилей к кнопкам */
 .header_link:hover, .header_link:focus, .header_link:active {
-
   text-shadow: 1px 1px 2px #666;
   color:#3B221C;
-}
-.header_nav {
 
+}
+
+.header_nav {
   height: 37.98px;
 
 }
 
 /*top Button*/
-
 #topButtom {
   display: inline-block;
   position: fixed;
@@ -548,36 +540,7 @@ body {
   right: 45px;   
   z-index: 1000;
 }
-
-
-/* Styles for the content section */
-
-.content {
-  width: 77%;
-  margin: 50px auto;
-  font-family: 'Merriweather', serif;
-  font-size: 17px;
-  color: #6c767a;
-  line-height: 1.9;
-}
-@media (min-width: 500px) {
-  .content {
-    width: 43%;
-  }
-  #button {
-    margin: 30px;
-  }
-}
-.content h1 {
-  margin-bottom: -10px;
-  color: #03a9f4;
-  line-height: 1.5;
-}
-.content h3 {
-  font-style: italic;
-  color: #96a2a7;
-}
-/* Header styles end */
+/* Hader styles end */
 
 
 /* INTRO styles start */
@@ -585,16 +548,15 @@ body {
   background-color: #FCF9F8;
   position: relative;
 
-
 }
-.main_logo {
 
+.main_logo {
   position: absolute;
   margin-top: 34px;
 
 }
-.intro {
 
+.intro {
   max-width: 1176px;
   height: 3251px;
   margin: 0 auto;
@@ -902,7 +864,7 @@ text {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 78%;
+  width: 77%;
   
 }
 
