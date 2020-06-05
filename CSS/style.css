@@ -467,8 +467,9 @@ body {
   background: #E5E5E5;
   
 }
+/* Body styles end */
 
-/* HEADER styles */
+/* HEADER styles start */
 .wrapper {
   max-width: 1176px;
   margin: 0 auto;
@@ -485,7 +486,6 @@ body {
 }
 
 .header_wrapper {
-
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
@@ -536,7 +536,7 @@ body {
   display: inline-block;
   position: fixed;
   text-align: center;
-  bottom: 35px;
+  bottom: 45px;
   right: 45px;   
   z-index: 1000;
 }
