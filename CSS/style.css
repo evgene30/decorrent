@@ -468,6 +468,7 @@ body {
   font-size: 14px;
   line-height: 1.2;
   background: #E5E5E5;
+  
 
 
 }
@@ -594,7 +595,7 @@ body {
 .intro {
 
   max-width: 1176px;
-  height: 3432px;
+  height: 3249px;
   margin: 0 auto;
   position: relative;
 
@@ -861,12 +862,17 @@ text {
   padding-right: 133px;
   padding-top: 33px;
   padding-bottom: 27px;
+  height: 181px;
+  position: relative;
+  
+  
 
 }
 
 .footer_item {
   display: flex;
   flex-wrap: wrap;
+  
 
 }
 .footer_nav {
@@ -874,6 +880,8 @@ text {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  column-count: auto;
+  
 
 
 }
