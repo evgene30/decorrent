@@ -589,14 +589,6 @@ body {
 
 
 }
-.sec5 {
-  position: absolute;
-  width: 1176;
-  height: 44;
-  top: 400px;
-  right: 0px;
-  left: 55px;
-}
 
 .bec1 {
   font-family: Noto Serif;
@@ -658,20 +650,12 @@ button:hover, button:focus, button:active {
   margin-left: 11px;
 }
 
-.bec4 {
-
-  position: absolute;
-  font-family: Noto Serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 40px;
-  text-align: center;
-  margin-bottom: 0;
-  color: #3B221C;
-  top: 0px;
-  bottom: 0px;
-  left: 363px;
+.sec4 {
+  position: relative;
+  width: 1176px;
+  top: 1232px;
+  right: 0px;
+  left: 0px;
 }
 
 .main_logo {
@@ -728,12 +712,7 @@ button:hover, button:focus, button:active {
 
 
 }
-.swadba {
-  position: absolute;
-  left: 165px;
-  top: 1746.81px;
 
-}
 .pic1 {
   position: absolute;
   width: 588px;
@@ -742,21 +721,6 @@ button:hover, button:focus, button:active {
   background: linear-gradient(180deg, rgba(252, 249, 248, 0.96) 13.54%, rgba(252, 249, 248, 0) 57.29%);
   transform: rotate(-0.09deg);
 
-}
-.bulkini {
-  position: absolute;
-  left: 466px;
-  top: 1731.56px;
-
-}
-
-
-.sec4 {
-  position: relative;
-  width: 1176px;
-  top: 1232px;
-  right: 0px;
-  left: 0px;
 }
 
 .inf1 {
@@ -814,11 +778,97 @@ text {
   opacity: 0.7;
 }
 
+/* Style block Brand start */
+.sec5 {
+  position: absolute;
+  width: 1176;
+  height: 44;
+  top: 400px;
+  right: 0px;
+  left: 55px;
+  top: 1632px;
+
+}
+
+.bec4 {
+  position: absolute;
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  margin-bottom: 0;
+  color: #3B221C;
+  top: 0px;
+  bottom: 0px;
+  left: 363px;
+}
+
+.brend_item {
+  width: 100%;
+  position: relative;
+  width: 1176;
+  top: 1731.56px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  
+}
+.line_one1 {
+  margin-bottom: 10px;  
+
+}
+
+/* Style block Brand end */
+
+
+/* Style block phone start  */
+.coloboration { 
+  position: relative;
+  width: 1176px;
+  top: 2072.49px;
+  right: 0px;
+  left: 0px;
+  height: auto;
+    
+}
+.date {
+  position: absolute;
+  width: 734px;
+  margin-left: 240.52px;
+
+}
+.bec8 {
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 31px;
+  text-align: center;
+  color: #3B221C;
+  margin-top: 15px;
+
+}
+.flo_wer1 {
+  position: absolute;
+  margin-left: 50px;
+}
+.flo_wer2 {
+  position: absolute;
+  margin-left: 973.32px;
+  
+
+
+}
+
+/* Style block phone end  */
 
 
 
 
-/*Footer start*/
+
+/* Footer start*/
 .footer {
   background: #3B221C;
   padding-left: 133px;
