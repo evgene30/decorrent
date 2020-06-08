@@ -727,8 +727,8 @@ text {
   color: #3B221C;
 }
 
-/* Style ВЫБРАТЬ НАС start */
 
+/* Style CHOSE block start */
 .choise {
   position: relative;
   width: 1176px;
@@ -756,7 +756,6 @@ text {
   margin-top: 0px;
   margin-left: 143px;
   
-  
 }
 
 .text_big {
@@ -783,7 +782,7 @@ text {
   opacity: 0.7;
 }
 
-/* Style ВЫБРАТЬ НАС end */
+/* Style CHOSE block end */
 
 
 /* Style block Brand start */
