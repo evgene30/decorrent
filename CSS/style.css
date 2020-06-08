@@ -815,23 +815,22 @@ text {
 .brend_item {
   width: 100%;
   position: relative;
-  width: 1176;
-  top: 1731.56px;
+  top: 1590.56px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-end;
   
 }
+
 .line_one1 {
   margin-bottom: 10px;  
 
 }
-
 /* Style block Brand end */
 
 
-/* Style block phone start  */
+/* Style block coloboration start  */
 .coloboration { 
   position: relative;
   width: 1176px;
@@ -841,12 +840,14 @@ text {
   height: auto;
     
 }
+
 .date {
   position: absolute;
   width: 734px;
   margin-left: 240.52px;
 
 }
+
 .bec8 {
   font-family: Noto Serif;
   font-style: normal;
@@ -857,25 +858,61 @@ text {
   margin-top: 15px;
 
 }
+
 .flo_wer1 {
   position: absolute;
   margin-left: 50px;
 }
+
 .flo_wer2 {
   position: absolute;
   margin-left: 973.32px;
   
 }
 
-/* Style block phone end  */
+.phone_block {
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+
+}
+
+.number {
+width: 50%;
+margin-top: 173.57px;
+font-family: Noto Serif;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+color: #3B221C;
+
+}
+
+.data_one {
+  margin-right: 24px;
+  
+}
+.href_mail {
+  text-decoration: none;
+  color: #3B221C;
+  
+}
+
+.href_mail:hover, .href_mail:focus, .href_mail:active {
+  text-shadow: 1px 1px 2px #666;
+  color:#3B221C;
+
+}
+
+/* Style block coloboration end  */
 
 
 
 
 
 
-
-/* Footer start*/
+/* footer block start*/
 .footer {
   background: #3B221C;
   padding-left: 133px;
@@ -945,4 +982,4 @@ text {
   opacity: .35;
 
 }
-/*Footer end*/
+/*footer block end*/
