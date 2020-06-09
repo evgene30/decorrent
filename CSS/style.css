@@ -448,6 +448,9 @@ textarea {
        url('../fonts/inter-v1-latin_cyrillic-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+
+/* _____________________________ */
+
 /* Подключение box-sizing border-box для правильного расчета разметки */
 html {
   box-sizing: border-box;
@@ -455,6 +458,9 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+
+
 
 
 /* Body styles start */
@@ -473,6 +479,7 @@ body {
 .wrapper {
   max-width: 1176px;
   margin: 0 auto;
+  
 
 }
 
@@ -531,22 +538,12 @@ body {
 
 }
 
-/*top Button*/
-#topButtom {
-  display: inline-block;
-  position: fixed;
-  text-align: center;
-  bottom: 45px;
-  right: 45px;   
-  z-index: 1000;
-}
-/* Hader styles end */
-
 
 /* INTRO styles start */
 .main {
   background-color: #FCF9F8;
   position: relative;
+  flex-wrap: wrap;
 
 }
 
@@ -559,8 +556,9 @@ body {
 .intro {
   max-width: 1176px;
   height: 3251px;
-  margin: 0 auto;
+  margin: auto;
   position: relative;
+  flex-wrap: wrap;
 
 }
 .sec1 {
@@ -689,6 +687,8 @@ button:hover, button:focus, button:active {
   position: absolute;
   left: 232.36px;
   top: 3149.29px;
+  
+  
 }
 
 .afloa1 {
@@ -994,9 +994,10 @@ color: #3B221C;
   padding-right: 133px;
   padding-top: 33px;
   padding-bottom: 27px;
-  height: 183px;
+  height: auto;
+  width: 100%;
   position: relative;
-  
+  flex-wrap: wrap;
 }
 
 .footer_item {
@@ -1031,7 +1032,6 @@ color: #3B221C;
 
 .men3 {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   width: 77%;
   
@@ -1058,3 +1058,15 @@ color: #3B221C;
 
 }
 /*footer block end*/
+
+
+/*top Button*/
+#topButtom {
+  display: inline-block;
+  position: fixed;
+  text-align: center;
+  bottom: 45px;
+  right: 45px;   
+  z-index: 1000;
+}
+/* Hader styles end */
