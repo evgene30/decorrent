@@ -620,7 +620,7 @@ body {
 
 /* Аренда block style start */
 .sec1 {
-  width: 588px;
+  width: 42%;
   height: 961px;
   left: 0px;
   top: 0px;
@@ -628,11 +628,13 @@ body {
 
 }
 .sec2 {
-  width: 588px;
+  width: 57%;
   height: 961px;
   right: 0px;
   top: 0px;
   position: absolute;
+  display: flex;
+  flex-wrap: wrap;
 
 }
 
@@ -646,38 +648,12 @@ button {
   top: 604px;
   background: #3B221C;
   border-radius: 10px;
+  
 
 }
 button:hover, button:focus, button:active {
   background: linear-gradient(270deg, #3B221C 14.79%, #673C30 42.82%, #794739 55.83%, #3B221C 82.86%), #3B221C;
   box-shadow: 1px 2px 2px rgba(73, 43, 36, 0.25);
-}
-
-.bec1 {
-  font-family: Noto Serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 44px;
-  line-height: 56px;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.013em;
-  color: #3B221C;
-
-}
-
-.bec2 {
-  position: absolute;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 32px;
-  margin-top: 16px;
-  letter-spacing: 0.013em;
-  color: #3B221C;
-  opacity: 0.8;
-
 }
 
 .bec3 {
@@ -692,9 +668,38 @@ button:hover, button:focus, button:active {
   order: 0;
   align-self: center;
   margin: 10px 0px;
-  margin-left: 11px;
+  
+}
+.bec1 {
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 56px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.013em;
+  color: #3B221C;
+  padding-top: 283px;
+
 }
 
+.bec2 {
+  position: absolute;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 32px;
+  margin-top: 16px;
+  letter-spacing: 0.013em;
+  color: #3B221C;
+  opacity: 0.8;
+
+}
+
+
+/* Foto_link style */
 .pic1 {
   position: absolute;
   width: 588px;
@@ -705,17 +710,11 @@ button:hover, button:focus, button:active {
 
 }
 
-text {
-  position: absolute;
-  top: 51px;
-  width: 339px;
-  height: 32.11px;
-  font-family: Noto Serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 22px;
-  color: #3B221C;
+.foto_link {
+  width: 50%;
+  
 }
+
 
 
 
