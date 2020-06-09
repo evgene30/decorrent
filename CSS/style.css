@@ -448,8 +448,9 @@ textarea {
        url('../fonts/inter-v1-latin_cyrillic-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+/* _______________________ */
 
-/* _____________________________ */
+
 
 /* Подключение box-sizing border-box для правильного расчета разметки */
 html {
@@ -458,9 +459,6 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
-
-
-
 
 
 /* Body styles start */
@@ -475,11 +473,11 @@ body {
 }
 /* Body styles end */
 
-/* HEADER styles start */
+
+/* Header block styles start */
 .wrapper {
   max-width: 1176px;
   margin: 0 auto;
-  
 
 }
 
@@ -537,9 +535,10 @@ body {
   height: 37.98px;
 
 }
+/* Header block styles end */
 
 
-/* INTRO styles start */
+/* Main block start */
 .main {
   background-color: #FCF9F8;
   position: relative;
@@ -561,6 +560,65 @@ body {
   flex-wrap: wrap;
 
 }
+.main_logo {
+  position: absolute;
+
+}
+.main_logo2 {
+
+  position: absolute;
+  right: 0px;
+  top: 790px;
+
+}
+.main_logo3 {
+  position: absolute;
+  right: 0px;
+  top: 1320px;
+
+}
+
+.left_flo {
+  position: absolute;
+  left: 302px;
+  top: 1097px;
+
+}
+.right_flo {
+  position: absolute;
+  left: 982px;
+  top: 1097px;
+
+}
+.button_flo1 {
+  position: absolute;
+  left: 0px;
+  top: 3021px;
+}
+
+.button_flo2 {
+  position: absolute;
+  left: 232.36px;
+  top: 3149.29px;
+  
+}
+
+.afloa1 {
+  position: absolute;
+  left: 379px;
+  top: 1618px;
+
+}
+.afloa2 {
+  position: absolute;
+  right: 342px;
+  top: 1618px;
+
+}
+/* Main block start */
+
+
+/* Аренда block style start */
 .sec1 {
 
   width: 588px;
@@ -578,15 +636,7 @@ body {
   position: absolute;
 
 }
-.sec3 {
-  position: relative;
-  width: 1176px;
-  top: 1117px;
-  right: 0px;
-  left: 0px;
 
-
-}
 
 .bec1 {
   font-family: Noto Serif;
@@ -648,62 +698,7 @@ button:hover, button:focus, button:active {
   margin-left: 11px;
 }
 
-.main_logo {
-  position: absolute;
 
-}
-.main_logo2 {
-
-  position: absolute;
-  right: 0px;
-  top: 790px;
-
-}
-.main_logo3 {
-  position: absolute;
-  right: 0px;
-  top: 1320px;
-
-}
-
-.left_flo {
-  position: absolute;
-  left: 302px;
-  top: 1097px;
-
-}
-.right_flo {
-  position: absolute;
-  left: 982px;
-  top: 1097px;
-
-}
-.button_flo1 {
-  position: absolute;
-  left: 0px;
-  top: 3021px;
-}
-.button_flo2 {
-  position: absolute;
-  left: 232.36px;
-  top: 3149.29px;
-  
-  
-}
-
-.afloa1 {
-  position: absolute;
-  left: 379px;
-  top: 1618px;
-
-}
-.afloa2 {
-  position: absolute;
-  right: 342px;
-  top: 1618px;
-
-
-}
 
 .pic1 {
   position: absolute;
@@ -729,6 +724,15 @@ text {
 
 
 /* Style CHOSE block start */
+.sec3 {
+  position: relative;
+  width: 1176px;
+  top: 1117px;
+  right: 0px;
+  left: 0px;
+  
+}
+
 .choise {
   position: relative;
   width: 1176px;
