@@ -507,7 +507,7 @@ body {
 }
 
 .header_item {
-  margin-right: 82px;
+  margin-right: 48px;
 
 }
 /* создание псевдокласса для последнего элемента меню */
@@ -620,7 +620,7 @@ body {
 
 /* Аренда block style start */
 .sec1 {
-  width: 42%;
+  width: 552px;
   height: 961px;
   left: 0px;
   top: 0px;
@@ -629,7 +629,7 @@ body {
 
 }
 .sec2 {
-  width: 57%;
+  width: 624px;
   height: 961px;
   right: 0px;
   top: 0px;
@@ -705,7 +705,7 @@ button:hover, button:focus, button:active {
 /* Foto_link style */
 .pic1 {
   position: absolute;
-  width: 588px;
+  width: 100%;
   height: 103px;
   top: 0px;
   background: linear-gradient(180deg, rgba(252, 249, 248, 0.96) 13.54%, rgba(252, 249, 248, 0) 57.29%);
@@ -729,7 +729,7 @@ button:hover, button:focus, button:active {
 /* Style CHOSE block start */
 .sec3 {
   position: relative;
-  width: 1176px;
+  width: 100%;
   top: 1117px;
   right: 0px;
   left: 0px;
