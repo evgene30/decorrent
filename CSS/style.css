@@ -625,6 +625,7 @@ body {
   left: 0px;
   top: 0px;
   position: absolute;
+  
 
 }
 .sec2 {
@@ -634,7 +635,7 @@ body {
   top: 0px;
   position: absolute;
   display: flex;
-  flex-wrap: wrap;
+  
 
 }
 
@@ -648,6 +649,8 @@ button {
   top: 604px;
   background: #3B221C;
   border-radius: 10px;
+  justify-content: center;
+  flex-wrap: nowrap;
   
 
 }
