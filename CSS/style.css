@@ -774,7 +774,7 @@ text {
 .text_small {
   font-family: Montserrat;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   left: 0px;
   line-height: 24px;
@@ -912,7 +912,6 @@ color: #3B221C;
   color:#3B221C;
 
 }
-
 /* Style block coloboration end  */
 
 /* Style block reviews start  */
@@ -951,26 +950,40 @@ color: #3B221C;
   flex-wrap: wrap;
   justify-content: space-between;
   
-  
-  
 }
 
 .info_block {
   width: 300px;
-}
 
+}
 
 .foto_reviews {
   width: 180px;
   height: 180px;
+  margin-bottom: 29px;
+
 }
 
+.text_info_block_big {
+  margin-bottom: 8px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3B221C;
 
+}
 
+.text_info_block_small {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #75635E;
 
-
-
-
+}
 /* Style block reviews end  */
 
 
