@@ -715,9 +715,28 @@ button:hover, button:focus, button:active {
   width: 50%;
   
 }
+.foto_link.one {
+  text-align: right;
+}
+.foto_link.two {
+  text-align: left;
+}
 
+.foto_up {
+  margin-left: 24px;
+  margin-top: 24px;
+  
+}
+.foto_down {
+  margin-left: 24px;
+  margin-top: 24px;
+  
+}
 
-
+.pic2 {
+  width: 100%;
+  
+}
 
 
 
