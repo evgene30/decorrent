@@ -628,15 +628,7 @@ body {
   position: absolute;
   
 }
-.sec2 {
-  width: 624px;
-  right: 0px;
-  top: 0px;
-  position: absolute;
-  display: flex;
   
-}
-
 button {
   /* кнопка арендовать */
   display: flex;
@@ -701,6 +693,16 @@ button:hover, button:focus, button:active {
 
 
 /* Foto_link style */
+
+.sec2 {
+  width: 624px;
+  right: 0px;
+  top: 0px;
+  position: absolute;
+  display: flex;
+  
+}
+
 .pic1 {
   position: absolute;
   width: 100%;
@@ -734,20 +736,12 @@ button:hover, button:focus, button:active {
   
 }
 
-.pic2 {
-  width: 100%;
-  margin-left: 0px;
-  z-index: 200;
 
-}
-.block_zero {
-  width: 100%;
-  height: 82px;
-}
-.foto_up.one {
-  height: 45px;
-  
-}
+
+
+
+
+
 
 
 
