@@ -569,6 +569,7 @@ body {
   position: absolute;
   right: 0px;
   top: 790px;
+  z-index: 200;
 
 }
 .main_logo3 {
@@ -629,7 +630,6 @@ body {
 }
 .sec2 {
   width: 624px;
-  height: 961px;
   right: 0px;
   top: 0px;
   position: absolute;
@@ -708,6 +708,7 @@ button:hover, button:focus, button:active {
   top: 0px;
   background: linear-gradient(180deg, rgba(252, 249, 248, 0.96) 13.54%, rgba(252, 249, 248, 0) 57.29%);
   transform: rotate(-0.09deg);
+  z-index: 200;
 
 }
 
@@ -735,8 +736,19 @@ button:hover, button:focus, button:active {
 
 .pic2 {
   width: 100%;
+  margin-left: 0px;
+  z-index: 200;
+
+}
+.block_zero {
+  width: 100%;
+  height: 82px;
+}
+.foto_up.one {
+  height: 45px;
   
 }
+
 
 
 
