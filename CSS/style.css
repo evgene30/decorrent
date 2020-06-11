@@ -700,6 +700,7 @@ button:hover, button:focus, button:active {
   top: 0px;
   position: absolute;
   display: flex;
+  justify-content: flex-end;
 
 }
 
@@ -718,11 +719,11 @@ button:hover, button:focus, button:active {
   width: 48%;
 }
 .foto_link.one {
-  text-align: right;
+  
   
 }
 .foto_link.two {
-  text-align: right;
+  
   
 }
 
