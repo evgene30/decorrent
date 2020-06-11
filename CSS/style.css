@@ -731,27 +731,33 @@ button:hover, button:focus, button:active {
 }
 
 .foto_none.two {
-  padding: 12px;
+  padding-bottom: 24px;
+  padding-left: 24px;
 
 }
 
 .foto_none.one {
-  height: 83px;
-  padding-bottom: 12px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 2px;
+  
+  padding-bottom: 24px;
+  padding-left: 24px;
+  padding-top: 1px;
 
+}
+.foto_none.two {
+  padding-bottom: 24px;
+  padding-left: 24px;
 }
 
 .foto_up {
-  padding: 12px;
+  padding-bottom: 24px;
+  padding-left: 24px;
   -webkit-transition-duration:.3s;transition-duration:.3s;-webkit-transition-property:transform;transition-property:transform;-webkit-transform:translateZ(0);transform:translateZ(0);
 
 }
 
 .foto_down {
-  padding: 12px;
+  padding-bottom: 24px;
+  padding-left: 24px;
   -webkit-transition-duration:.3s;transition-duration:.3s;-webkit-transition-property:transform;transition-property:transform;-webkit-transform:translateZ(0);transform:translateZ(0);
 }
 
