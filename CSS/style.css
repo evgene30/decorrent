@@ -728,15 +728,15 @@ button:hover, button:focus, button:active {
 .foto_none {
   margin-left: 24px;
   margin-top: 24px;
-    
+
 }
 .foto_up {
   margin-left: 24px;
   margin-top: 24px;
   -webkit-transition-duration:.3s;transition-duration:.3s;-webkit-transition-property:transform;transition-property:transform;-webkit-transform:translateZ(0);transform:translateZ(0);
 
-  
 }
+
 .foto_down {
   margin-left: 24px;
   margin-top: 24px;
@@ -745,10 +745,12 @@ button:hover, button:focus, button:active {
 
 .foto_up:active,.foto_up:focus,.foto_up:hover {
   -webkit-transform:scale(1.1);transform:scale(1.1);
+
 }
 
 .foto_down:active,.foto_down:focus,.foto_down:hover {
   -webkit-transform:scale(1.1);transform:scale(1.1);
+
 }
 
 
