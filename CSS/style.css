@@ -460,6 +460,8 @@ html {
   box-sizing: inherit;
 }
 
+/* Убирает все рамки вокруг ссылок */
+a:focus {outline:none;}
 
 /* Body styles start */
 body {
