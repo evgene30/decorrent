@@ -700,7 +700,7 @@ button:hover, button:focus, button:active {
   top: 0px;
   position: absolute;
   display: flex;
-  
+
 }
 
 .blum_gradient {
@@ -715,31 +715,28 @@ button:hover, button:focus, button:active {
 }
 
 .foto_link {
-  width: 50%;
-  
+  width: 48%;
 }
 .foto_link.one {
   text-align: right;
+  
 }
 .foto_link.two {
-  text-align: left;
+  text-align: right;
+  
 }
 
 .foto_none {
-  margin-left: 24px;
-  margin-top: 24px;
-
+  padding: 12px;
 }
 .foto_up {
-  margin-left: 24px;
-  margin-top: 24px;
+  padding: 12px;
   -webkit-transition-duration:.3s;transition-duration:.3s;-webkit-transition-property:transform;transition-property:transform;-webkit-transform:translateZ(0);transform:translateZ(0);
 
 }
 
 .foto_down {
-  margin-left: 24px;
-  margin-top: 24px;
+  padding: 12px;
   -webkit-transition-duration:.3s;transition-duration:.3s;-webkit-transition-property:transform;transition-property:transform;-webkit-transform:translateZ(0);transform:translateZ(0);
 }
 
