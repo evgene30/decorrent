@@ -727,7 +727,7 @@ button:hover, button:focus, button:active {
 }
 
 .foto_down.one {
-  margin-top: 20px;
+  padding-top: 32px;
 }
 
 .foto_none.two {
@@ -737,7 +737,7 @@ button:hover, button:focus, button:active {
 }
 
 .foto_none.one {
-  
+
   padding-bottom: 24px;
   padding-left: 24px;
   padding-top: 1px;
@@ -746,6 +746,7 @@ button:hover, button:focus, button:active {
 .foto_none.two {
   padding-bottom: 24px;
   padding-left: 24px;
+
 }
 
 .foto_up {
