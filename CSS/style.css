@@ -471,7 +471,7 @@ body {
   font-size: 14px;
   line-height: 1.2;
   background: #E5E5E5;
-  
+
 }
 /* Body styles end */
 
@@ -483,14 +483,14 @@ body {
   margin: 0 auto;
   background: #FCF9F8;
   box-shadow: 0px 1px 0px #DDC8C2;
-  
+
 
 }
 
 .wrapper {
   max-width: 1176px;
   margin: 0 auto;
-  
+
 
 }
 
@@ -605,7 +605,7 @@ body {
   position: absolute;
   left: 232.36px;
   top: 3149.29px;
-  
+
 }
 
 .afloa1 {
@@ -630,9 +630,9 @@ body {
   left: 0px;
   top: 0px;
   position: absolute;
-  
+
 }
-  
+
 button {
   /* кнопка арендовать */
   display: flex;
@@ -643,9 +643,11 @@ button {
   top: 604px;
   background: #3B221C;
   border-radius: 10px;
-  justify-content: center;
   flex-wrap: nowrap;
-  
+    padding-left: 18px;
+    padding-top: 8px;
+
+
 
 }
 button:hover, button:focus, button:active {
@@ -665,7 +667,7 @@ button:hover, button:focus, button:active {
   order: 0;
   align-self: center;
   margin: 10px 0px;
-  
+
 }
 .bec1 {
   font-family: Noto Serif;
@@ -783,7 +785,7 @@ button:hover, button:focus, button:active {
   top: 1117px;
   right: 0px;
   left: 0px;
-  
+
 }
 
 .choise {
@@ -812,7 +814,7 @@ button:hover, button:focus, button:active {
   text-align: center;
   margin-top: 0px;
   margin-left: 143px;
-  
+
 }
 
 .text_big {
@@ -825,7 +827,7 @@ button:hover, button:focus, button:active {
   line-height: 32px;
   padding-top: 18.7px;
   padding-bottom: 11.04px;
-  
+
 }
 
 .text_small {
@@ -877,23 +879,23 @@ button:hover, button:focus, button:active {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-end;
-  
+
 }
 
 .line_one1 {
-  margin-bottom: 10px;  
+  margin-bottom: 10px;
 
 }
 /* Style block Brand end */
 
 
 /* Style block coloboration start  */
-.coloboration { 
+.coloboration {
   position: absolute;
   width: 1176px;
   bottom: 960px;
   height: auto;
-    
+
 }
 
 .date {
@@ -922,7 +924,7 @@ button:hover, button:focus, button:active {
 .flo_wer2 {
   position: absolute;
   margin-left: 973.32px;
-  
+
 }
 
 .phone_block {
@@ -956,12 +958,12 @@ color: #3B221C;
 
 .data_one {
   margin-right: 24px;
-  
+
 }
 .href_mail {
   text-decoration: none;
   color: #3B221C;
-  
+
 }
 
 .href_mail:hover, .href_mail:focus, .href_mail:active {
@@ -1006,7 +1008,7 @@ color: #3B221C;
   width: 100%;
   flex-wrap: wrap;
   justify-content: space-between;
-  
+
 }
 
 .info_block {
@@ -1060,7 +1062,7 @@ color: #3B221C;
 .footer_item {
   display: flex;
   flex-wrap: wrap;
-  
+
 }
 
 .footer_nav {
@@ -1068,7 +1070,7 @@ color: #3B221C;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  
+
 }
 
 .footer_menu-title {
@@ -1091,7 +1093,7 @@ color: #3B221C;
   display: flex;
   justify-content: space-between;
   width: 77%;
-  
+
 }
 
 .men2 {
@@ -1107,7 +1109,7 @@ color: #3B221C;
   line-height: 24px;
   color: #FFE4DB;
   text-decoration: none;
- 
+
 }
 
 .footer_menu-link:hover, .footer_menu-link:focus,.footer_menu-link:active {
@@ -1123,7 +1125,7 @@ color: #3B221C;
   position: fixed;
   text-align: center;
   bottom: 45px;
-  right: 45px;   
+  right: 45px;
   z-index: 1000;
 }
 /* Hader styles end */
