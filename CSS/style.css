@@ -475,18 +475,20 @@ body {
 
 
 /* Header block styles start */
-.wrapper {
-  max-width: 1176px;
-  margin: 0 auto;
-
-}
-
 .header {
   max-width: 1440px;
   max-height: 104px;
   margin: 0 auto;
   background: #FCF9F8;
   box-shadow: 0px 1px 0px #DDC8C2;
+  
+
+}
+
+.wrapper {
+  max-width: 1176px;
+  margin: 0 auto;
+  
 
 }
 
@@ -719,14 +721,7 @@ button:hover, button:focus, button:active {
 .foto_link {
   width: 48%;
 }
-.foto_link.one {
-  
-  
-}
-.foto_link.two {
-  
-  
-}
+
 .foto_down.one {
   margin-top: 20px;
 }
