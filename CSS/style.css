@@ -712,6 +712,7 @@ button:hover, button:focus, button:active {
   background: linear-gradient(180deg, rgba(252, 249, 248, 0.96) 13.54%, rgba(252, 249, 248, 0) 57.29%);
   transform: rotate(-0.09deg);
   z-index: 200;
+  text-align: center;
 
 }
 
@@ -725,6 +726,9 @@ button:hover, button:focus, button:active {
 .foto_link.two {
   
   
+}
+.foto_down.one {
+  margin-top: 20px;
 }
 
 .foto_none {
