@@ -662,10 +662,8 @@ button:hover, button:focus, button:active {
   text-align: center;
   color: #FFF7F5;
   flex: none;
-  order: 0;
   align-self: center;
-  margin: 10px 0px;
-
+  
 }
 
 .bec1 {
@@ -776,8 +774,17 @@ button:hover, button:focus, button:active {
   position: relative;
   width: 100%;
   top: 1117px;
-  right: 0px;
-  left: 0px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+ 
+
+}
+
+.vb {
+  flex-wrap: nowrap;
 
 }
 
@@ -840,12 +847,14 @@ button:hover, button:focus, button:active {
 /* Style block Brand start */
 .sec5 {
   position: absolute;
-  width: 1176;
-  height: 44;
-  top: 400px;
-  right: 0px;
-  left: 55px;
+  width: 100%;
   top: 1632px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ 
+
+  
 
 }
 
@@ -859,9 +868,9 @@ button:hover, button:focus, button:active {
   text-align: center;
   margin-bottom: 0;
   color: #3B221C;
-  top: 0px;
-  bottom: 0px;
-  left: 363px;
+  margin-left: 19px;
+  
+  
 }
 
 .brend_item {
