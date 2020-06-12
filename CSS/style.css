@@ -468,7 +468,7 @@ body {
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 10px;
   line-height: 1.2;
   background: #E5E5E5;
 
@@ -484,13 +484,11 @@ body {
   background: #FCF9F8;
   box-shadow: 0px 1px 0px #DDC8C2;
 
-
 }
 
 .wrapper {
   max-width: 1176px;
   margin: 0 auto;
-
 
 }
 
@@ -644,15 +642,15 @@ button {
   background: #3B221C;
   border-radius: 10px;
   flex-wrap: nowrap;
-    padding-left: 18px;
-    padding-top: 8px;
-
-
+  padding-left: 18px;
+  padding-top: 0px;
 
 }
+
 button:hover, button:focus, button:active {
   background: linear-gradient(270deg, #3B221C 14.79%, #673C30 42.82%, #794739 55.83%, #3B221C 82.86%), #3B221C;
   box-shadow: 1px 2px 2px rgba(73, 43, 36, 0.25);
+
 }
 
 .bec3 {
@@ -669,6 +667,7 @@ button:hover, button:focus, button:active {
   margin: 10px 0px;
 
 }
+
 .bec1 {
   font-family: Noto Serif;
   font-style: normal;
@@ -716,9 +715,7 @@ button:hover, button:focus, button:active {
   height: 103px;
   top: 0px;
   background: linear-gradient(180deg, rgba(252, 249, 248, 0.96) 13.54%, rgba(252, 249, 248, 0) 57.29%);
-  transform: rotate(-0.09deg);
   z-index: 200;
-  text-align: center;
 
 }
 
@@ -771,18 +768,7 @@ button:hover, button:focus, button:active {
   -webkit-transform:scale(1.1);transform:scale(1.1);
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
+/* Foto_link style end */
 
 
 /* Style CHOSE block start */
