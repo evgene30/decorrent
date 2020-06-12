@@ -879,6 +879,25 @@ button:hover, button:focus, button:active {
   margin-bottom: 10px;
 
 }
+.brand_pic.png {
+  -webkit-transition: all 0.3s ease;;
+  -moz-transition: all 0.3s ease;;
+  -o-transition: all 0.3s ease;;
+  transition: all 0.3s ease;
+
+}
+
+.brand_pic.png:hover,.brand_pic.png:focus,.brand_pic.png:active {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+
+}
+
+
+
+
+
 /* Style block Brand end */
 
 
