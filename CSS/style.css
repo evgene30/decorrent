@@ -787,10 +787,8 @@ button:hover, button:focus, button:active {
 
 .choise {
   position: relative;
-  width: 1176px;
+  width: 100%;
   top: 1232px;
-  right: 0px;
-  left: 0px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -824,6 +822,7 @@ button:hover, button:focus, button:active {
   line-height: 32px;
   padding-top: 18.7px;
   padding-bottom: 11.04px;
+ 
 
 }
 
@@ -836,6 +835,7 @@ button:hover, button:focus, button:active {
   line-height: 24px;
   color: #3B221C;
   opacity: 0.7;
+ 
 }
 
 /* Style CHOSE block end */
@@ -850,9 +850,6 @@ button:hover, button:focus, button:active {
   flex-wrap: wrap;
   justify-content: center;
  
-
-  
-
 }
 
 .bec4 {
@@ -866,7 +863,6 @@ button:hover, button:focus, button:active {
   margin-bottom: 0;
   color: #3B221C;
   margin-left: 19px;
-  
   
 }
 
@@ -899,17 +895,17 @@ button:hover, button:focus, button:active {
   transform: scale(1.2);
 
 }
-
-
 /* Style block Brand end */
 
 
 /* Style block coloboration start  */
 .coloboration {
   position: absolute;
-  width: 1176px;
+  width: 100%;
   bottom: 960px;
   height: auto;
+  display: flex;
+  flex-wrap: wrap;
 
 }
 
