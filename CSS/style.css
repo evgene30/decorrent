@@ -634,7 +634,6 @@ body {
 button {
   /* кнопка арендовать */
   display: flex;
-  flex-direction: row;
   position: absolute;
   width: 154px;
   height: 48px;
@@ -642,9 +641,10 @@ button {
   background: #3B221C;
   border-radius: 10px;
   flex-wrap: nowrap;
-  padding-left: 18px;
-  padding-top: 0px;
-
+  border: 0px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
 }
 
 button:hover, button:focus, button:active {
@@ -659,10 +659,7 @@ button:hover, button:focus, button:active {
   font-weight: 500;
   font-size: 18px;
   line-height: 24px;
-  text-align: center;
   color: #FFF7F5;
-  flex: none;
-  align-self: center;
   
 }
 
