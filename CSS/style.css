@@ -1063,15 +1063,23 @@ button:active {
     position: absolute;
     width: 100%;
     bottom: 960px;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .date {
-    position: absolute;
+    display: flex;
     width: 734px;
     margin-left: 240.52px;
+    justify-content: center;
+}
+
+.cange {
+    display: flex;
+    width: 734px;
+}
+
+.reviews_item myy {
+    display: flex;
+    margin-bottom: 0px;
 }
 
 .bec8 {
@@ -1080,7 +1088,7 @@ button:active {
     font-weight: 600;
     font-size: 31px;
     text-align: center;
-    color: #3B221C;
+    color: black;
     margin-top: 15px;
 }
 
@@ -1288,6 +1296,15 @@ button:active {
     right: 45px;
     z-index: 1000;
 }
+
+#topButtom:hover,
+#topButtom:focus,
+#topButtom:active {
+    opacity: .85;
+}
+
+
+/* Button styles end */
 
 
 /* Button styles end */
